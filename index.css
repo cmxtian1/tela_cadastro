@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px #32b9cd solid;
+    padding: 15px 0;
+}
+.header .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    margin: 0;
+    color: #32b9cd;
+}
+
+.header .container .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    list-style: none;
+}
+
+.navbar .navbtn a{
+    text-decoration: none;
+    color: #efb661;
+}
+.navbar .navbtn{
+    text-decoration: none;
+    color: #efb661;
+}
+.banner{
+    background-image: url('./img/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    /* padding: 100px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container{
+    display: flex;
+    height: 85%;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #d57e9d;
+    width: 26%;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+.entradaDado{
+    display: flex;
+    flex-direction: column;
+}
+.legenda{
+    font-weight: 600;
+}
+.inpt{
+    height: 35px;
+    border:#32b9cd solid 2px;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+.btnform{
+    background-color: #e70058;
+    height: 35px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.agora{
+    font-weight: 600;
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #32b9cd;
+    height:13vh;
+    color: #fff;
+    font-weight: 700;
+}
